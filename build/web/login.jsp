@@ -25,22 +25,24 @@ body
 </style>
 </head>
 <body >
+    <a href="website.jsp"> <img src="6.png" style="width:200px;height:90px;"><br></a>
 <center>
 
-<br><br><br><br><p><h1>LOGIN</h1></p>
-<p >or
+<br><br><br><br><p><h1 style="color:orange;">LOGIN</h1></p>
+<p style="color:orange;">or
 <a href="signup.jsp">Create an account</a>
 </center>
 </body><br>
 <center>
-<form action="/action_page.php">
+<form action="login">
 
-<input type="number"  style="width:250px;height:50px;color:#E9967A" placeholder="Phone Number"  maxlength="10" required><br>
-<input type="password"  style="width:250px;height:50px;color:#E9967A" placeholder="Password" required><br><br>
-<input type="checkbox" name="remember" value="Remember Me">Remember Me<br>
-<input type="button" style="width:250px;height:50px;color:FireBrick" value="LOGIN" required><br><br>
+    <input type="number"  style="width:250px;height:50px;color:#E9967A" required name="mno" placeholder="Phone Number"  maxlength="10" ><br>
+<input type="password"  style="width:250px;height:50px;color:#E9967A" required name="pwd" placeholder="Password" ><br><br>
 
-<a href="forgot.jsp">FORGOT PASSWORD?</a><br><br>
+<button type="submit" style="width:250px;height:50px;color:FireBrick">Login</button>
+<br><br>
+
+
 
 </form>
 </center>

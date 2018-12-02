@@ -16,7 +16,7 @@
 <title>Swiggy Terms & Conditions</title>
 </head>
 <body>
-<img src="6.jpg" style="width:200px;height:90px;"><br>
+    <a href="website.jsp">  <img src="6.jpg" style="width:200px;height:90px;"><br></a>
 <p align="right">
 <a href="login.jsp"><button class="button">LOGIN</button></a></p>
 <p>

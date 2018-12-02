@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
 <head>
@@ -26,26 +25,26 @@
 </style>
 <title name="ab">Order food online from India's best food delivery service.Order from restaurants near you</title>
 </head>
-<body bgcolor="#F0F8FF"> <br>
-    <a href="website.jsp"> <img src="6.png" style="width:200px;height:90px;"></a>
-
-<a href="signup.jsp" style="float: right"><button class="button">SIGN UP</button></a>
-
-<a href="login.jsp" style="float:right"><button class="button">LOGIN</button></a>
+<body bgcolor="#F0F8FF"> 
+   <h1 style="text-align:right">Welcome <%= session.getAttribute("name")%>!</h1> 
+    <a href="websiteclone.jsp"> <img src="6.png" style="width:200px;height:90px;"></a>
+  
+   
+   <a href="logout.jsp" style="float:right;"><button class="button">Log out</button></a>
 
 <form action="FindFood">
-<MARQUEE><h2 style="color:red;"><b>Late night at office?                                         Feeling Hungry?                                       Unexpected Guests?</b></h2></MARQUEE>
+<MARQUEE><h3><b>Late night at office?                                         Feeling Hungry?                                       Unexpected Guests?</b></h3></MARQUEE>
 <center>
 <p><h1>Order food from favourite restaurants near you</h1></p>
 <select style="height:60px;width:390px" name="state">
   <option value="HimachalPradesh">Himachal Pradesh</option>
   <option value="Chandigarh">Chandigarh</option>
-<option value="Punjab">Punjab</option>
   <option value="Delhi">Delhi</option>
+  <option value="Punjab">Punjab</option>
   
 </select>
 
-<input type="submit" value="Find Place" class="button" style="width:150px;height:50px"><br><br><br>
+<input type="submit" value="submit" class="button" style="width:150px;height:50px"><br><br><br>
 </form>
 
 

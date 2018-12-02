@@ -24,7 +24,8 @@ body
 
 </style>
 </head>
-<body >
+<body>
+    <a href="website.jsp"><img src="6.png" style="width:200px;height:90px;"><br></a>
 <center>
 <p>
 <b>FORGOT YOUR PASSWORD!!!!!!</b>
